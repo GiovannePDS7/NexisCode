@@ -1,0 +1,56 @@
+/* MOBILE - SM */
+#main-sm {
+    height: 58vh;
+    background-image: url("../../../assets/background/principal.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#section-sm {
+
+    width: 100%;
+    height: 100%;
+    background: #000000ad;
+}
+
+#h1-sm {
+    word-break: normal;
+    /* Evita quebra de palavras */
+    overflow-wrap: break-word;
+    /* Quebra linhas apenas em espaços */
+    word-wrap: break-word;
+    /* Para compatibilidade */
+    white-space: normal;
+    max-width: 82%;
+    min-width: 70%;
+    color: #EF820D;
+}
+
+#h3-sm {
+    width: 90%;
+    color: #fff;
+    font-weight: 200;
+}
+
+#button-sm {
+    height: 4.5vh;
+    font-weight: 400;
+    font-size: 70%;
+    width: 28%;
+    border: none;
+    border-radius: 4px;
+    margin: 3% 0;
+}
+
+#container-sm {
+    margin-top: 3%;
+    padding-left: 4.5vw;
+    height: 55%;
+    width: 100%;
+}
+
+#logo-sm {
+
+    width: 35%;
+}
