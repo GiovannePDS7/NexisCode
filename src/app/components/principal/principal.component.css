@@ -1,6 +1,6 @@
 /* MOBILE - SM */
 #main-sm {
-    height: 58vh;
+    height: 40vh;
     background-image: url("../../../assets/background/principal.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -15,13 +15,6 @@
 }
 
 #h1-sm {
-    word-break: normal;
-    /* Evita quebra de palavras */
-    overflow-wrap: break-word;
-    /* Quebra linhas apenas em espaços */
-    word-wrap: break-word;
-    /* Para compatibilidade */
-    white-space: normal;
     max-width: 82%;
     min-width: 70%;
     color: #EF820D;
@@ -34,23 +27,22 @@
 }
 
 #button-sm {
-    height: 4.5vh;
+    height: 2.6vh;
     font-weight: 400;
     font-size: 70%;
-    width: 28%;
+    width: 22%;
     border: none;
     border-radius: 4px;
-    margin: 3% 0;
+
 }
 
 #container-sm {
-    margin-top: 3%;
     padding-left: 4.5vw;
-    height: 55%;
     width: 100%;
+    height: 45%;
+    margin-bottom: 5%;
 }
 
 #logo-sm {
-
-    width: 35%;
+    width: 30%;
 }
