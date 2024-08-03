@@ -27,13 +27,13 @@
 }
 
 #button-sm {
-    height: 2.6vh;
+    height: 3vh;
     font-weight: 400;
     font-size: 70%;
-    width: 22%;
+    width: 25%;
     border: none;
     border-radius: 4px;
-
+    margin-top: 2%;
 }
 
 #container-sm {
