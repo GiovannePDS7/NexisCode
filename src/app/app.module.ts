@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './pages/login/login.component';
 import { EmpresaComponent } from './pages/empresa/empresa.component';
 import { PrincipalComponent } from './components/principal/principal.component';
+import { QuemSomosComponent } from './components/quem-somos/quem-somos.component';
+import { OndaComponent } from './components/onda/onda.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     EmpresaComponent,
-    PrincipalComponent
+    PrincipalComponent,
+    QuemSomosComponent,
+    OndaComponent
   ],
   imports: [
     BrowserModule,

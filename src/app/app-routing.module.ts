@@ -8,11 +8,10 @@ import { LoginComponent } from './pages/login/login.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/empresa', pathMatch: 'full' },
-  { path: '**', redirectTo: '/empresa', pathMatch: 'full' },
   { path: 'empresa', component: EmpresaComponent },
   { path: 'login', component: LoginComponent },
+  { path: '**', redirectTo: '/empresa', pathMatch: 'full' }
 ]
-
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
