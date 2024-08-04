@@ -6,8 +6,19 @@
     font-weight: bold;
 }
 
+.h3-sm {
+    color: #EF820D;
+    font-weight: bold;
+}
+
 #p-sm {
     width: 95%;
     text-align: center;
     font-weight: 500;
+}
+
+.p-sm {
+    font-weight: 600;
+    text-align: center;
+    width: 85%;
 }
