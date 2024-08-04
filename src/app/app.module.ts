@@ -8,6 +8,7 @@ import { EmpresaComponent } from './pages/empresa/empresa.component';
 import { PrincipalComponent } from './components/principal/principal.component';
 import { QuemSomosComponent } from './components/quem-somos/quem-somos.component';
 import { OndaComponent } from './components/onda/onda.component';
+import { IntegrantesComponent } from './components/integrantes/integrantes.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { OndaComponent } from './components/onda/onda.component';
     EmpresaComponent,
     PrincipalComponent,
     QuemSomosComponent,
-    OndaComponent
+    OndaComponent,
+    IntegrantesComponent
   ],
   imports: [
     BrowserModule,

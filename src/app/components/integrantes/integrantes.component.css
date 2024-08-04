@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#h1-sm {
+    text-align: center;
+    padding: 0% 0 3% 0;
+    color: #EF820D;
+    text-shadow: -2px 1px 0px rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+}
+
+/* integrantes.component.css */
+.slider-container {
+    overflow: hidden;
+    /* Esconde a rolagem */
+    position: relative;
+    width: 100%;
+    /* Ajuste a largura conforme necessário */
+    cursor: grab;
+    /* Indica que o slider pode ser arrastado */
+}
+
+.slider-inner {
+    display: flex;
+    /* Alinha os cards horizontalmente */
+    flex-wrap: nowrap;
+    /* Impede a quebra de linha */
+    overflow-x: scroll;
+    /* Adiciona a rolagem horizontal */
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    /* Adiciona um efeito de rolagem suave */
+}
+
+.slider-inner::-webkit-scrollbar {
+    display: none;
+    /* Oculta a barra de rolagem no WebKit */
+}
+
+.card-sm {
+    padding: 0 0 4vw 0;
+    height: 88vw;
+    width: 60%;
+    /* Ajuste a largura dos cards conforme necessário */
+    margin: 0 2.5vw;
+    /* Espaçamento entre os cards */
+    background: #EF820D;
+    /* Fundo do card */
+    border: 1px solid #ddd;
+    /* Borda do card */
+    border-radius: 8px;
+    /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Sombra do card */
+    text-align: center;
+    /* Centraliza o texto */
+    flex: 0 0 auto;
+    /* Impede que os cards sejam redimensionados */
+}
+
+.card-sm img {
+    padding: 2vw 0 0 0;
+    width: 90%;
+    height: 68%;
+    object-fit: cover;
+    image-rendering: auto;
+}
+
+.github-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    text-decoration: none;
+    width: 100%;
+}
+
+.slider-container.active {
+    cursor: grabbing;
+    /* Muda o cursor quando o slider está sendo arrastado */
+}
+
+.member-info-sm {
+    padding: 2vw 0 0 0;
+    width: 100%;
+}
+
+#a-sm, #h3-sm, #p-sm {
+    color: #fff;
+}
+
+#h3-sm {
+    font-size: 6.2vw;
+}
+
+#p-sm {
+    font-size: 5vw;
+}
+
+#a-sm {
+    font-size: 3.5vw;
+
+}
+
+#github-sm {
+    padding: 0 2vw 0 0;
+    height: 100%;
+    width: 12%;
+}
