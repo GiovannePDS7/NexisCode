@@ -1,3 +1,4 @@
+/* MOBILE - SM */
 #h1-sm {
     text-align: center;
     padding: 7% 0 3% 0;
@@ -9,6 +10,7 @@
 .h3-sm {
     color: #EF820D;
     font-weight: bold;
+    text-align: center;
 }
 
 #p-sm {
@@ -21,4 +23,45 @@
     font-weight: 600;
     text-align: center;
     width: 90%;
+    
+}
+
+/* TABLET - MD */
+#h1-md {
+    text-align: center;
+    padding: 7% 0 3% 0;
+    color: #EF820D;
+    text-shadow: -2px 1px 0px rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+}
+
+.h3-md {
+    color: #EF820D;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+#p-md {
+    width: 90%;
+    height: 25vh;
+    text-align: center;
+    font-weight: 500;
+    margin: 0 auto;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.p-md {
+    font-weight: 600;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.d-none.d-sm-block.d-md-none.flex-column.align-items-center.justify-content-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

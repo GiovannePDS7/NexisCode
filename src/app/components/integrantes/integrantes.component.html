@@ -16,5 +16,24 @@
             </div>
         </div>
     </div>
+</div>
 
+<div class="d-none d-sm-block d-md-none flex-column" id="integrantes-sm">
+    <h1 class="fs-0" id="h1-md">Equipe</h1>
+    <div class="slider-container" #slider>
+        <div class="slider-inner">
+            <div class="card-md d-flex align-items-center justify-content-evenly flex-column"
+                *ngFor="let member of members">
+                <img [src]="member.image" alt="{{ member.name }}" class="img-fluid" />
+                <div class="member-info-md d-flex align-items-center justify-content-evenly flex-column">
+                    <h3 id="h3-md">{{ member.name }}</h3>
+                    <p id="p-md" >{{ member.role }}</p>
+                    <a target="_blank" href="{{ member.linkGithub }}" class="github-link" id="a-sm">
+                      <img src="../../../assets/elementos/github.png" class="img-fluid" id="github-sm">
+                        {{ member.github }}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
