@@ -4,7 +4,13 @@
 }
 #icon-empresa{
   height: 10vh;
-  background-color: aquamarine;
+  background-color: #fff;
+  justify-content: center;
+  display: flex;
+}
+#imgEmpresa{
+  margin-top: 4%;
+  height: 60%;
 }
 #redes{
   height: 12vh;
@@ -14,7 +20,11 @@
 #icons-redes{
   margin-top: 3.5%;
 }
-#contatos{
+#icons-redesMB{
+  margin-top: 3%;
+}
+
+#contatos, #contatos-md{
   text-align: center;
   background-color: #262626;
   border-bottom: 2px solid #fff;
@@ -27,4 +37,8 @@
 }
 #copy-text{
   margin-top: 1.3%;
+}
+#imgMeio{
+  margin-left: 15%;
+  margin-right: 15%;
 }
