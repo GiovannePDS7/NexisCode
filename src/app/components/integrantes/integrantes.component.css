@@ -8,7 +8,7 @@
 #h1-sm {
     text-align: center;
     padding: 0% 0 3% 0;
-    color: #EF820D;
+    color: #007BE0;
     text-shadow: -2px 1px 0px rgba(0, 0, 0, 0.7);
     font-weight: bold;
 }
@@ -48,7 +48,7 @@
     /* Ajuste a largura dos cards conforme necessário */
     margin: 0 2.5vw;
     /* Espaçamento entre os cards */
-    background: #EF820D;
+    background: #0062B2;
     /* Fundo do card */
     border: 1px solid #ddd;
     /* Borda do card */
@@ -115,7 +115,7 @@
 #h1-md {
     text-align: center;
     padding: 0% 0 3% 0;
-    color: #EF820D;
+    color: #007BE0;
     text-shadow: -2px 1px 0px rgba(0, 0, 0, 0.7);
     font-weight: bold;
     font-size: 50px;
@@ -156,7 +156,7 @@
     /* Ajuste a largura dos cards conforme necessário */
     margin: 0 2.5vw;
     /* Espaçamento entre os cards */
-    background: #EF820D;
+    background: #0062B2;
     /* Fundo do card */
     border: 1px solid #ddd;
     /* Borda do card */
