@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './pages/login/login.component';
 import { EmpresaComponent } from './pages/empresa/empresa.component';
 import { PrincipalComponent } from './components/principal/principal.component';
 import { QuemSomosComponent } from './components/quem-somos/quem-somos.component';
@@ -13,7 +12,6 @@ import { IntegrantesComponent } from './components/integrantes/integrantes.compo
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
     EmpresaComponent,
     PrincipalComponent,
     QuemSomosComponent,
