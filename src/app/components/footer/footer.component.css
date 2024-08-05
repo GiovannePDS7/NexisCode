@@ -1,0 +1,30 @@
+#geral{
+  margin-top: 20px;
+  color: white;
+}
+#icon-empresa{
+  height: 10vh;
+  background-color: aquamarine;
+}
+#redes{
+  height: 12vh;
+  background-color: #262626;
+  text-align: center;
+}
+#icons-redes{
+  margin-top: 3.5%;
+}
+#contatos{
+  text-align: center;
+  background-color: #262626;
+  border-bottom: 2px solid #fff;
+}
+#copy{
+  text-align: center;
+  background-color: #262626;
+  height: 4vh;
+  font-size: 1.7vh;
+}
+#copy-text{
+  margin-top: 1.3%;
+}

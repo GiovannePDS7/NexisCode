@@ -9,6 +9,8 @@ import { PrincipalComponent } from './components/principal/principal.component';
 import { QuemSomosComponent } from './components/quem-somos/quem-somos.component';
 import { OndaComponent } from './components/onda/onda.component';
 import { IntegrantesComponent } from './components/integrantes/integrantes.component';
+import { FooterComponent } from './components/footer/footer.component';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { IntegrantesComponent } from './components/integrantes/integrantes.compo
     PrincipalComponent,
     QuemSomosComponent,
     OndaComponent,
-    IntegrantesComponent
+    IntegrantesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
