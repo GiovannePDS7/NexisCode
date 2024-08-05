@@ -63,7 +63,6 @@
 }
 
 .card-sm img {
-    padding: 2vw 0 0 0;
     width: 90%;
     height: 68%;
     object-fit: cover;
@@ -87,7 +86,6 @@
 .member-info-sm {
     padding: 2vw 0 0 0;
     width: 100%;
-    height: 40%;
 }
 
 #a-sm, #h3-sm, #p-sm {
@@ -173,13 +171,14 @@
 }
 
 .card-md img {
-    padding: 2vw 0 0 0;
     width: 90%;
     height: 68%;
     object-fit: cover;
     image-rendering: auto;
 }
-
+#h3-md, #h3-sm, #p-sm, #p-md{
+  padding: 0.5vw 0;
+}
 .github-link {
     display: flex;
     align-items: center;
@@ -197,7 +196,6 @@
 .member-info-md {
     padding: 2vw 0 0 0;
     width: 100%;
-    height: 40%;
 }
 
 #a-md, #h3-md, #p-md {
