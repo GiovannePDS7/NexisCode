@@ -3,8 +3,6 @@
     padding: 0;
 }
 
-/* MOBILE - SM */
-
 #h1-sm {
     text-align: center;
     padding: 0% 0 3% 0;
@@ -12,54 +10,35 @@
     text-shadow: -2px 1px 0px rgba(0, 0, 0, 0.7);
     font-weight: bold;
 }
-
-/* integrantes.component.css */
 .slider-container {
     overflow: hidden;
-    /* Esconde a rolagem */
     position: relative;
     width: 100%;
-    /* Ajuste a largura conforme necessário */
     cursor: grab;
-    /* Indica que o slider pode ser arrastado */
 }
 
 .slider-inner {
     display: flex;
-    /* Alinha os cards horizontalmente */
     flex-wrap: nowrap;
-    /* Impede a quebra de linha */
     overflow-x: scroll;
-    /* Adiciona a rolagem horizontal */
     overflow-y: hidden;
     scroll-behavior: smooth;
-    /* Adiciona um efeito de rolagem suave */
 }
 
 .slider-inner::-webkit-scrollbar {
     display: none;
-    /* Oculta a barra de rolagem no WebKit */
 }
 
 .card-sm {
     padding: 0 0 2vw 0;
     height: 75vw;
     width: 50%;
-    /* Ajuste a largura dos cards conforme necessário */
     margin: 0 2.5vw;
-    /* Espaçamento entre os cards */
     background: #0062B2;
-    /* Fundo do card */
     border: 1px solid #ddd;
-    /* Borda do card */
     border-radius: 8px;
-    /* Cantos arredondados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* Sombra do card */
     text-align: center;
-    /* Centraliza o texto */
     flex: 0 0 auto;
-    /* Impede que os cards sejam redimensionados */
 }
 
 .card-sm img {
@@ -80,7 +59,6 @@
 
 .slider-container.active {
     cursor: grabbing;
-    /* Muda o cursor quando o slider está sendo arrastado */
 }
 
 .member-info-sm {
@@ -110,8 +88,6 @@
     height: 100%;
     width: 12%;
 }
-
-/* TABLET - MD */
 #h1-md {
     text-align: center;
     padding: 0% 0 3% 0;
@@ -120,54 +96,36 @@
     font-weight: bold;
     font-size: 50px;
 }
-
-/* integrantes.component.css */
 .slider-container {
     overflow: hidden;
-    /* Esconde a rolagem */
     position: relative;
     width: 100%;
-    /* Ajuste a largura conforme necessário */
     cursor: grab;
-    /* Indica que o slider pode ser arrastado */
 }
 
 .slider-inner {
     display: flex;
-    /* Alinha os cards horizontalmente */
     flex-wrap: nowrap;
-    /* Impede a quebra de linha */
     overflow-x: scroll;
-    /* Adiciona a rolagem horizontal */
     overflow-y: hidden;
     scroll-behavior: smooth;
-    /* Adiciona um efeito de rolagem suave */
 }
 
 .slider-inner::-webkit-scrollbar {
     display: none;
-    /* Oculta a barra de rolagem no WebKit */
 }
 
 .card-md {
     padding: 0 0 2vw 0;
     height: 75vw;
     width: 50%;
-    /* Ajuste a largura dos cards conforme necessário */
     margin: 0 2.5vw;
-    /* Espaçamento entre os cards */
     background: #0062B2;
-    /* Fundo do card */
     border: 1px solid #ddd;
-    /* Borda do card */
     border-radius: 8px;
-    /* Cantos arredondados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* Sombra do card */
     text-align: center;
-    /* Centraliza o texto */
     flex: 0 0 auto;
-    /* Impede que os cards sejam redimensionados */
 }
 
 .card-md img {
@@ -190,7 +148,6 @@
 
 .slider-container.active {
     cursor: grabbing;
-    /* Muda o cursor quando o slider está sendo arrastado */
 }
 
 .member-info-md {

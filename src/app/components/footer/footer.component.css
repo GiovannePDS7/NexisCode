@@ -1,44 +1,42 @@
-#geral{
+#geral {
   margin-top: 20px;
   color: white;
 }
-#icon-empresa{
-  height: 10vh;
-  background-color: #fff;
-  justify-content: center;
-  display: flex;
-}
-#imgEmpresa{
+
+#imgEmpresa {
   margin-top: 4%;
-  height: 60%;
+  width: 12%;
+  margin: 0 auto;
+  margin-bottom: 4%;
 }
-#redes{
-  height: 12vh;
+
+#redes {
   background-color: #262626;
   text-align: center;
 }
-#icons-redes{
-  margin-top: 3.5%;
-}
-#icons-redesMB{
-  margin-top: 3%;
+
+#icons-redes {
+  padding: 5% 0;
 }
 
-#contatos, #contatos-md{
+#contatos, #contatos-md {
   text-align: center;
   background-color: #262626;
   border-bottom: 2px solid #fff;
 }
-#copy{
+
+#copy {
   text-align: center;
   background-color: #262626;
   height: 4vh;
   font-size: 1.7vh;
 }
-#copy-text{
+
+#copy-text {
   margin-top: 1.3%;
 }
-#imgMeio{
+
+#imgMeio {
   margin-left: 15%;
   margin-right: 15%;
 }
