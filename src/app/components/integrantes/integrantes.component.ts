@@ -13,7 +13,7 @@ export class IntegrantesComponent implements AfterViewInit {
     { name: 'João Eduardo', role: 'Front-end Developer', image: '../../../assets/integrantes/Joao.png', github: 'juedu006', linkGithub: 'https://github.com/juedu006' },
     { name: 'Henrique Lopes', role: 'Back-end Developer', image: '../../../assets/integrantes/Henrique.png', github: 'Henriqueluz21', linkGithub: 'https://github.com/Henriqueluz21' },
     { name: 'Anderson A.', role: 'DataBase Administrator', image: '../../../assets/integrantes/Anderson.png', github: 'Anderson-Armando', linkGithub: 'https://github.com/Anderson-Armando' },
-    { name: 'Giovanne P.', role: 'Back-end Developer', image: '../../../assets/integrantes/Giovanne.png', github: 'GiovannePDS7', linkGithub: 'https://github.com/GiovannePDS7' },
+    { name: 'Giovanne P.', role: 'Full-stack Developer', image: '../../../assets/integrantes/Giovanne.png', github: 'GiovannePDS7', linkGithub: 'https://github.com/GiovannePDS7' },
     { name: 'Isabella Amaro', role: 'UI/UX Designer', image: '../../../assets/integrantes/Isabella.png', github: 'Isabellinhaa', linkGithub: 'https://github.com/Isabellinhaa' },
     { name: 'Pedro Soares', role: 'DataBase Administrator', image: '../../../assets/integrantes/Pedro.png', github: 'PedroSoares22', linkGithub: 'https://github.com/PedroSoares22' },
   ];
