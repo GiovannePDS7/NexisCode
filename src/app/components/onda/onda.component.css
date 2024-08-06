@@ -1,10 +1,10 @@
 #onda-sm {
     width: 100%;
     height: 100%;
-    transform: translateY(-26%);
+    transform: translateY(-24%);
 }
 
 #section-sm {
-    height: 15vh;
+    height: 23vw;
     width: 100vw;
 }
