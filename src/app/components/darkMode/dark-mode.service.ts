@@ -13,7 +13,8 @@ export class DarkModeService {
   setDarkMode(isDarkMode: boolean): void {
     this.darkMode = isDarkMode;
     const h1txtShadow = document.querySelectorAll('.txt-destaque');
-    const onda = document.querySelector('.onda') as HTMLImageElement;
+    const ondas = document.querySelectorAll('.onda') as NodeListOf<HTMLImageElement>;
+    const logo = document.querySelectorAll('.logoEmpresa') as NodeListOf<HTMLImageElement>;
 
     if (isDarkMode) {
       document.body.classList.add('dark-theme');
@@ -21,7 +22,12 @@ export class DarkModeService {
       h1txtShadow.forEach(e => {
         e.classList.add('txtShadow-dark-theme')
       })
-      onda.src = '../../../assets/elementos/ondaEscura.png';
+     ondas.forEach(e =>{
+      e.src = '../../../assets/elementos/ondaEscura.png';
+     })
+     logo.forEach(e =>{
+      e.src = '../../../assets/Logo/Logo_branca.png';
+     })
 
     } else {
       document.body.classList.remove('dark-theme');
@@ -30,7 +36,12 @@ export class DarkModeService {
         e.classList.remove('txtShadow-dark-theme')
       })
 
-      onda.src = 'assets/elementos/ondaClara.png';
+      ondas.forEach(e =>{
+        e.src = '../../../assets/elementos/ondaClara.png';
+       })
+       logo.forEach(e =>{
+        e.src = '../../../assets/Logo/Logo_preta.png';
+       })
     }
   }
 }

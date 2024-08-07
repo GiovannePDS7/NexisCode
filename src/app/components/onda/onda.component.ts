@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./onda.component.css']
 })
 export class OndaComponent {
-
+  onda: string = 'assets/elementos/ondaClara.png';
 }
