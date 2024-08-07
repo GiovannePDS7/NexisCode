@@ -112,7 +112,6 @@ a {
 
     50% {
         transform: translateY(-8px);
-        /* Ajuste a altura conforme necessário */
     }
 
     100% {
@@ -187,4 +186,51 @@ input:checked+.slider {
 input:checked+.slider:before {
     transform: translateX(100%);
     box-shadow: inset 15px -4px 0px 15px #f0e001de;
+}
+
+/* DESKTOP - LG*/
+
+#logo-lg {
+    margin: 0 auto;
+    padding: 3% 0;
+    width: 10%;
+}
+
+#h1-lg {
+    max-width: 100%;
+    min-width: 70%;
+    color: #007BE0;
+}
+
+#h3-lg {
+    width: 60%;
+    color: #fff;
+    font-weight: 200;
+}
+
+#button-lg {
+    height: 3.8vh;
+    font-weight: 400;
+    font-size: 90%;
+    width: 20%;
+    border: none;
+    border-radius: 4px;
+    margin-top: 2%;
+}
+
+#container-lg {
+    padding-left: 4.5vw;
+    width: 100%;
+    height: 45%;
+    margin-bottom: 5%;
+}
+
+#logo-lg {
+    width: 30%;
+}
+
+#seta {
+    animation: indicador 2.3s infinite;
+    margin-bottom: 5%;
+    width: 5%;
 }
