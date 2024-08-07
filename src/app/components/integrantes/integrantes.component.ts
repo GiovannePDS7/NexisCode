@@ -37,7 +37,7 @@ export class IntegrantesComponent implements AfterViewInit {
   addDragFunctionality() {
     const slider = this.slider.nativeElement;
     let isDown = false;
-    let startX: number;
+    let startX: number;''
     let scrollLeft: number;
 
     slider.addEventListener('mousedown', (e: MouseEvent) => {
