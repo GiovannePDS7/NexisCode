@@ -37,3 +37,29 @@
         </div>
     </div>
 </div>
+
+<div class="d-none d-lg-block">
+    <h1 class="fs-0 txt-destaque" id="h1-md">Equipe</h1>
+    <div class="slider-inner">
+        <div class="card-lg" *ngFor="let member2 of members2">
+            <img [src]="member2.image" alt="{{ member2.name }}" class="img-fluid" id="img-lg" />
+            <h3 id="h3-lg">{{ member2.name }}</h3>
+            <p id="p-lg" >{{ member2.role }}</p>
+            <a target="_blank" href="{{ member2.linkGithub }}" class="github-link" id="a-lg">
+                <img src="../../../assets/elementos/github.png" class="img-fluid" id="github-lg">
+                  {{ member2.github }}
+            </a>
+        </div>
+    </div>
+    <div class="slider-inner">
+        <div class="card-lg" *ngFor="let member3 of members3">
+            <img [src]="member3.image" alt="{{ member3.name }}" class="img-fluid" id="img-lg" />
+            <h3 id="h3-lg">{{ member3.name }}</h3>
+            <p id="p-lg" >{{ member3.role }}</p>
+            <a target="_blank" href="{{ member3.linkGithub }}" class="github-link" id="a-lg">
+                <img src="../../../assets/elementos/github.png" class="img-fluid" id="github-lg">
+                  {{ member3.github }}
+            </a>
+        </div>
+    </div>
+</div>
