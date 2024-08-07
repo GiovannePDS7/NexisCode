@@ -66,7 +66,7 @@
     width: 100%;
 }
 
-#a-sm, #h3-sm, #p-sm, #a-lg {
+#a-sm, #h3-sm, #p-sm, #a-lg, #a-xl {
     color: #fff;
 }
 
@@ -86,7 +86,7 @@
     font-size: 1.8vw;
 }
 
-#github-s, #github-lg {
+#github-sm, #github-lg {
     padding: 0 2vw 0 0;
     height: 100%;
     width: 12%;
@@ -111,19 +111,22 @@
     cursor: grab;
 }
 
-.slider-inner {
+.slider-inner, .slider-innerXL {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: scroll;
     overflow-y: hidden;
     scroll-behavior: smooth;
 }
+.slider-innerXL{
+    margin-left: 11%;
+}
 
 .slider-inner::-webkit-scrollbar {
     display: none;
 }
 
-.card-md, .card-lg {
+.card-md, .card-lg, .card-xl {
     padding: 0 0 2vw 0;
     height: 75vw;
     width: 50%;
@@ -135,18 +138,27 @@
     text-align: center;
     flex: 0 0 auto;
 }
-.card-lg{
+.card-lg, .card-xl{
     margin-top: 2%;
-    height: 35vw;
-    width: 25%;
-    margin-left: 4.7%;
+    height: 30vw;
+    width: 22%;
+    margin-left: 7.5%;
 }
-#img-lg{
+.card-xl{
+    width: 22%;
+    height: 28vw;
+    margin-left: 4%;
+}
+#img-lg, #img-xl{
     margin-top: 3%;
     width: 90%;
     height: 68%;
     object-fit: cover;
     image-rendering: auto;
+}
+#img-xl{
+    width: 90%;
+    height: 60%;     
 }
 
 .card-md img {
@@ -155,9 +167,10 @@
     object-fit: cover;
     image-rendering: auto;
 }
-#h3-md, #h3-sm, #h3-lg, #p-sm, #p-md, #p-lg{
+#h3-md, #h3-sm, #h3-lg, #h3-xl, #p-sm, #p-md, #p-lg, #p-xl{
   padding: 0.5vw 0;
 }
+
 .github-link {
     display: flex;
     align-items: center;
@@ -176,7 +189,7 @@
     width: 100%;
 }
 
-#a-md, #h3-md, #h3-lg, #p-md, #p-lg {
+#a-md, #h3-md, #h3-lg, #h3-xl, #p-md, #p-lg, #p-xl {
     color: #fff;
 }
 
@@ -186,6 +199,9 @@
 #h3-lg{
     font-size: 2vw;
 }
+#h3-xl{
+    font-size: 1.8vw;
+}
 
 #p-md {
     font-size: 3vw;
@@ -193,10 +209,12 @@
 #p-lg{
     font-size: 1.8vw;
 }
+#p-xl{
+    font-size: 1.5vw;
+}
 
 #a-md {
     font-size: 2.5vw;
-
 }
 
 #github-md {
