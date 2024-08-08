@@ -225,12 +225,12 @@ input:checked+.slider:before {
     margin-bottom: 5%;
 }
 
-#logo-lg {
-    width: 30%;
-}
-
 #seta {
     animation: indicador 2.3s infinite;
     margin-bottom: 5%;
     width: 5%;
+}
+
+#logo-xxl {
+    width: auto !important;
 }
