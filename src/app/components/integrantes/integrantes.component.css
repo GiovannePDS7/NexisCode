@@ -66,7 +66,7 @@
     width: 100%;
 }
 
-#a-sm, #h3-sm, #p-sm, #a-lg, #a-xl {
+#a-sm, #h3-sm, #p-sm, #a-lg, #a-xl, #a-xxl {
     color: #fff;
 }
 
@@ -126,7 +126,7 @@
     display: none;
 }
 
-.card-md, .card-lg, .card-xl {
+.card-md, .card-lg, .card-xl, .card-xxl {
     padding: 0 0 2vw 0;
     height: 75vw;
     width: 50%;
@@ -149,6 +149,12 @@
     height: 28vw;
     margin-left: 4%;
 }
+.card-xxl{
+    width: 17%;
+    height: 20vw;
+    margin-left: 7.9%;
+    margin-bottom: 2%;
+}
 #img-lg, #img-xl{
     margin-top: 3%;
     width: 90%;
@@ -167,7 +173,7 @@
     object-fit: cover;
     image-rendering: auto;
 }
-#h3-md, #h3-sm, #h3-lg, #h3-xl, #p-sm, #p-md, #p-lg, #p-xl{
+#h3-md, #h3-sm, #h3-lg, #h3-xl, #h3-xxl, #p-sm, #p-md, #p-lg, #p-xl, #p-xxl{
   padding: 0.5vw 0;
 }
 
@@ -189,7 +195,7 @@
     width: 100%;
 }
 
-#a-md, #h3-md, #h3-lg, #h3-xl, #p-md, #p-lg, #p-xl {
+#a-md, #h3-md, #h3-lg, #h3-xl, #h3-xxl, #p-md, #p-lg, #p-xl, #p-xxl {
     color: #fff;
 }
 
@@ -202,6 +208,9 @@
 #h3-xl{
     font-size: 1.8vw;
 }
+#h3-xxl{
+    font-size: 1.5vw;
+}
 
 #p-md {
     font-size: 3vw;
@@ -212,9 +221,15 @@
 #p-xl{
     font-size: 1.5vw;
 }
+#p-xxl{
+    font-size: 1vw;
+}
 
 #a-md {
     font-size: 2.5vw;
+}
+#a-xxl{
+    font-size: 1vw;
 }
 
 #github-md {
