@@ -10,6 +10,7 @@
     text-shadow: -2px 1px 0px rgba(0, 0, 0, 0.7);
     font-weight: bold;
 }
+
 .slider-container {
     overflow: hidden;
     position: relative;
@@ -82,7 +83,8 @@
     font-size: 2.5vw;
 
 }
-#a-lg{
+
+#a-lg {
     font-size: 1.8vw;
 }
 
@@ -91,7 +93,8 @@
     height: 100%;
     width: 12%;
 }
-#github-lg{
+
+#github-lg {
     padding: 0 1vw 0 0;
     width: 15%;
 }
@@ -104,6 +107,7 @@
     font-weight: bold;
     font-size: 50px;
 }
+
 .slider-container {
     overflow: hidden;
     position: relative;
@@ -118,7 +122,8 @@
     overflow-y: hidden;
     scroll-behavior: smooth;
 }
-.slider-innerXL{
+
+.slider-innerXL {
     margin-left: 11%;
 }
 
@@ -138,33 +143,38 @@
     text-align: center;
     flex: 0 0 auto;
 }
-.card-lg, .card-xl{
+
+.card-lg, .card-xl {
     margin-top: 2%;
     height: 30vw;
     width: 22%;
     margin-left: 7.5%;
 }
-.card-xl{
+
+.card-xl {
     width: 22%;
     height: 28vw;
     margin-left: 4%;
 }
-.card-xxl{
+
+.card-xxl {
     width: 17%;
     height: 20vw;
     margin-left: 7.9%;
     margin-bottom: 2%;
 }
-#img-lg, #img-xl{
+
+#img-lg, #img-xl {
     margin-top: 3%;
     width: 90%;
     height: 68%;
     object-fit: cover;
     image-rendering: auto;
 }
-#img-xl{
+
+#img-xl {
     width: 90%;
-    height: 60%;     
+    height: 60%;
 }
 
 .card-md img {
@@ -173,8 +183,9 @@
     object-fit: cover;
     image-rendering: auto;
 }
-#h3-md, #h3-sm, #h3-lg, #h3-xl, #h3-xxl, #p-sm, #p-md, #p-lg, #p-xl, #p-xxl{
-  padding: 0.5vw 0;
+
+#h3-md, #h3-sm, #h3-lg, #h3-xl, #h3-xxl, #p-sm, #p-md, #p-lg, #p-xl, #p-xxl {
+    padding: 0.5vw 0;
 }
 
 .github-link {
@@ -202,33 +213,40 @@
 #h3-md {
     font-size: 4vw;
 }
-#h3-lg{
+
+#h3-lg {
     font-size: 2vw;
 }
-#h3-xl{
+
+#h3-xl {
     font-size: 1.8vw;
 }
-#h3-xxl{
+
+#h3-xxl {
     font-size: 1.5vw;
 }
 
 #p-md {
     font-size: 3vw;
 }
-#p-lg{
+
+#p-lg {
     font-size: 1.8vw;
 }
-#p-xl{
+
+#p-xl {
     font-size: 1.5vw;
 }
-#p-xxl{
+
+#p-xxl {
     font-size: 1vw;
 }
 
 #a-md {
     font-size: 2.5vw;
 }
-#a-xxl{
+
+#a-xxl {
     font-size: 1vw;
 }
 

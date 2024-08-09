@@ -26,6 +26,20 @@ body {
     color: #fff;
 }
 
+.linha-white {
+    background: #fff !important;
+}
+
 .txtShadow-dark-theme {
     text-shadow: -2px 1px 0px rgba(37, 37, 37, 0.507) !important;
 }
+
+.Mvv-white {
+    color: #fff !important;
+}
+
+.ContainerQmSomosBg {
+    background-color: #0A0A0A !important;
+}
+
+/* @media screen and (min-width: 1400px) {} */

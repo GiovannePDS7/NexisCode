@@ -68,18 +68,14 @@
 
 /* DESKTOP - LG */
 
-#grandContainerQuemSomos {
+.grandContainerQuemSomos {
     width: 100%;
     display: flex;
-    background-color: rgb(0, 136, 255);
+    background: #FFFCF2;
 }
 
-.littleContainerQuemSomosLeft {
-    width: 50%;
-}
 
 .littleContainerQuemSomosRigth {
-    background: #FFFCF2;
     width: 50%;
     height: 100%;
     display: flex;
@@ -88,7 +84,7 @@
 }
 
 #h1-lg-quemSomos {
-    padding-top: 3%;
+    padding: 3% 0;
     color: #000000;
     text-shadow: -2px 1px 0px rgba(0, 0, 0, 0.7);
     font-weight: bold;
@@ -166,4 +162,19 @@
     margin: 0 auto;
     font-size: 2.4vh;
     text-align: center;
+}
+
+#img-qmSomos {
+    width: 28vw;
+}
+
+.littleContainerQuemSomosLeft {
+    width: 50%;
+}
+
+#container-img {
+    height: 95%;
+    width: 90%;
+    border-radius: 25% 54% 32% 47%;
+    background-color: rgb(0, 136, 255);
 }
